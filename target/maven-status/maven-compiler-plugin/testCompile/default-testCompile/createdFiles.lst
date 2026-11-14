@@ -1,5 +1,6 @@
 com/bridgelabz/employeepayroll/dto/EmployeePayrollDTOTest.class
 com/bridgelabz/employeepayroll/dto/ResponseDTOTest.class
+com/bridgelabz/employeepayroll/config/exception/EmployeePayrollExceptionHandlerTest.class
 com/bridgelabz/employeepayroll/config/DatabaseConfigTest.class
 com/bridgelabz/employeepayroll/controller/EmployeePayrollControllerTest.class
 com/bridgelabz/employeepayroll/EmployeePayrollApplicationTest.class
