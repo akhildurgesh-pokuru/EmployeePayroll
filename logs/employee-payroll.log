@@ -1,0 +1,25 @@
+2026-11-15T02:07:20.342+05:30  INFO 41934 --- [employee-payroll-app] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 17.0.16 with PID 41934 (/Users/pokuruakhil/Downloads/AddressBook/target/classes started by pokuruakhil in /Users/pokuruakhil/Downloads/AddressBook)
+2026-11-15T02:07:20.343+05:30 DEBUG 41934 --- [employee-payroll-app] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.5.16, Spring v6.2.19
+2026-11-15T02:07:20.343+05:30  INFO 41934 --- [employee-payroll-app] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2026-11-15T02:07:20.575+05:30  INFO 41934 --- [employee-payroll-app] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-15T02:07:20.583+05:30  INFO 41934 --- [employee-payroll-app] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2026-11-15T02:07:20.737+05:30  INFO 41934 --- [employee-payroll-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-15T02:07:20.744+05:30  INFO 41934 --- [employee-payroll-app] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-15T02:07:20.744+05:30  INFO 41934 --- [employee-payroll-app] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-11-15T02:07:20.765+05:30  INFO 41934 --- [employee-payroll-app] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-15T02:07:20.765+05:30  INFO 41934 --- [employee-payroll-app] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 405 ms
+2026-11-15T02:07:20.975+05:30  INFO 41934 --- [employee-payroll-app] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-15T02:07:20.986+05:30  INFO 41934 --- [employee-payroll-app] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-15T02:07:21.183+05:30  INFO 41934 --- [employee-payroll-app] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c4d1c7b
+2026-11-15T02:07:21.184+05:30  INFO 41934 --- [employee-payroll-app] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-15T02:07:21.358+05:30  INFO 41934 --- [employee-payroll-app] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-15T02:07:21.374+05:30  WARN 41934 --- [employee-payroll-app] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-15T02:07:21.515+05:30  INFO 41934 --- [employee-payroll-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-11-15T02:07:21.520+05:30  INFO 41934 --- [employee-payroll-app] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 1.352 seconds (process running for 1.488)
+2026-11-15T02:07:21.521+05:30  INFO 41934 --- [employee-payroll-app] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started
+2026-11-15T02:07:21.521+05:30  INFO 41934 --- [employee-payroll-app] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Running in DEV Environment
+2026-11-15T02:07:52.248+05:30  INFO 41934 --- [employee-payroll-app] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-15T02:07:54.276+05:30  INFO 41934 --- [employee-payroll-app] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-11-15T02:07:54.290+05:30  INFO 41934 --- [employee-payroll-app] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-15T02:07:54.296+05:30  INFO 41934 --- [employee-payroll-app] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-15T02:07:54.308+05:30  INFO 41934 --- [employee-payroll-app] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
