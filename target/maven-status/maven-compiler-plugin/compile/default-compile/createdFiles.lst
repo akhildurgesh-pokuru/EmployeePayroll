@@ -1,3 +1,6 @@
 com/bridgelabz/employeepayroll/dto/EmployeePayrollDTO.class
 com/bridgelabz/employeepayroll/EmployeePayrollApplication.class
 com/bridgelabz/employeepayroll/dto/ResponseDTO.class
+com/bridgelabz/employeepayroll/model/EmployeePayrollData.class
+com/bridgelabz/employeepayroll/service/EmployeePayrollService.class
+com/bridgelabz/employeepayroll/controller/EmployeePayrollController.class
