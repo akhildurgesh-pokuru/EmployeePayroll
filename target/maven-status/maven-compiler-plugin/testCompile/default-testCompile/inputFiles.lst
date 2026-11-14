@@ -5,4 +5,5 @@
 /Users/pokuruakhil/Downloads/AddressBook/src/test/java/com/bridgelabz/employeepayroll/controller/EmployeePayrollControllerTest.java
 /Users/pokuruakhil/Downloads/AddressBook/src/test/java/com/bridgelabz/employeepayroll/dto/EmployeePayrollDTOTest.java
 /Users/pokuruakhil/Downloads/AddressBook/src/test/java/com/bridgelabz/employeepayroll/dto/ResponseDTOTest.java
+/Users/pokuruakhil/Downloads/AddressBook/src/test/java/com/bridgelabz/employeepayroll/exception/EmployeePayrollNotFoundTest.java
 /Users/pokuruakhil/Downloads/AddressBook/src/test/java/com/bridgelabz/employeepayroll/service/EmployeePayrollServiceTest.java
