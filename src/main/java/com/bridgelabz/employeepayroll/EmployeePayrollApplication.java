@@ -22,8 +22,18 @@ public class EmployeePayrollApplication {
         String environment = context.getEnvironment()
                 .getProperty("environment", "UNKNOWN");
 
-        log.info("Employee Payroll App Running in {} Environment",
-                environment);
+        log.info(
+                "Employee Payroll App Running in {} Environment",
+                environment
+        );
+
+        String dbUsername = context.getEnvironment()
+                .getProperty("spring.datasource.username");
+
+        log.info(
+                "Employee Payroll Database Username: {}",
+                dbUsername
+        );
     }
 
     static void logStartup() {
